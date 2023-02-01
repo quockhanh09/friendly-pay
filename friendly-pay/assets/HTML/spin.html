@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/assets/images/favicon-f-rosa-png-720912.png">
+    <link rel="stylesheet" href="/assets/fontawesome-free-6.2.0-web/css/all.css">
+    <link rel="stylesheet" href="/assets/CSS/spin.css">
+    <title>Friendly Pay</title>
+</head>
+
+<body>
+    <header>
+        <div class="header__navBar">
+            <a class="header__logoBrand" href="/index.html">Friendly Pay</a>
+            <div class="header__itemsRight">
+                <div class="header__itemsNavbar">
+                    <a class="header--items header--itemConsumer" href="#">Consumer</a>
+                    <a class="header--items header--itemAboutus" href="/assets/HTML/about-us.html">About Us</a>
+                    <div class="header--items header--itemLanguage">
+                        <i class="fa-solid fa-globe"></i>
+                    </div>
+                    <a href="/assets/HTML/help.html" class="header--items header--itemHelp">
+                        <div class="itemHelp--icon"></div>
+                        <div class="itemHelp--help">Help</div>
+                    </a>
+                    <a href="/assets/HTML/login.html" class="header--items header--itemLogin">
+                        <div class="itemLogin--icon"></div>
+                        <div class="itemLogin--login">Login</div>
+                    </a>
+                    <a href="/assets/HTML/register.html" class="header--items header--itemRegister">Register</a>
+                </div>
+                <div class="header__itemMenu">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="section1">
+            <div class="mainBox__container">
+                <div class="mainbox" id="mainbox">
+                    <div class="box" id="box">
+                        <div class="box1">
+                            <span class="font span1">
+                                <h5 id="output1">Friend 1</h5>
+                            </span>
+                            <span class="font span2">
+                                <h5 id="output2">Friend 2</h5>
+                            </span>
+                            <span class="font span3">
+                                <h5 id="output3">Friend 3</h5>
+                            </span>
+                            <span class="font span4">
+                                <h5 id="output4">Friend 4</h5>
+                            </span>
+                            <span class="font span5">
+                                <h5 id="output5">Friend 5</h5>
+                            </span>
+                            <span class="font span6">
+                                <h5 id="output6">Friend 6</h5>
+                            </span>
+                        </div>
+                        <!-- <div class="box2"> -->
+                    </div>
+                    <button class="spin" id="spin">SPIN</button>
+                </div>
+            </div>
+            <audio controls="controls" id="applause" type="audio/mp3"
+                src="/assets/audio/cheer-and-applause.wav"></audio>
+            <audio controls="controls" id="wheel" type="audio/mp3" src="/assets/audio/bike-wheel-spinning.wav"></audio>
+            </div>
+        </section>
+
+        <section class="section2">
+            <!--             <form action=""> -->
+            <fieldset>
+                <legend>Credits</legend>
+                <label for="bill-num">The Bill</label>
+                <input type="text" name="bill-num" id="bill-num" autofocus maxlength="10" size="10" required>
+
+                <label for="person1" class="friend1">Friend 1</label>
+                <input onchange="output1(event)" type="text" name="person1" id="person1" required
+                    placeholder="Your name" minlength="6" maxlength="20" size="20">
+                <input type="text" id="person1-card" required placeholder="Card Number" minlength="10" maxlength="12"
+                    size="12">
+                <input type="password" id="person1-cvv" required placeholder="CVV ( 3 characters )" minlength="3"
+                    maxlength="3" size="3">
+
+                <label for="person2" class="friend2">Friend 2</label>
+                <input onchange="output2(event)" type="text" name="person2" id="person2" required
+                    placeholder="Your name" minlength="6" maxlength="20" size="20">
+                <input type="text" id="person2-card" required placeholder="Card Number" minlength="10" maxlength="12"
+                    size="12">
+                <input type="password" id="person2-cvv" required placeholder="CVV ( 3 characters )" minlength="3"
+                    maxlength="3" size="3">
+
+                <label for="person3" class="friend3">Friend 3</label>
+                <input onchange="output3(event)" type="text" name="person3" id="person3" required
+                    placeholder="Your name" minlength="6" maxlength="20" size="20">
+                <input type="text" id="person3-card" required placeholder="Card Number" minlength="10" maxlength="12"
+                    size="12">
+                <input type="password" id="person3-cvv" required placeholder="CVV ( 3 characters )" minlength="3"
+                    maxlength="3" size="3">
+
+                <label for="person4" class="friend4">Friend 4</label>
+                <input onchange="output4(event)" type="text" name="person4" id="person4" required
+                    placeholder="Your name" minlength="6" maxlength="20" size="20">
+                <input type="text" id="person4-card" required placeholder="Card Number" minlength="10" maxlength="12"
+                    size="12">
+                <input type="password" id="person4-cvv" required placeholder="CVV ( 3 characters )" minlength="3"
+                    maxlength="3" size="3">
+
+                <label for="person5" class="friend5">Friend 5</label>
+                <input onchange="output5(event)" type="text" name="person5" id="person5" required
+                    placeholder="Your name" minlength="6" maxlength="20" size="20">
+                <input type="text" id="person5-card" required placeholder="Card Number" minlength="10" maxlength="12"
+                    size="12">
+                <input type="password" id="person5-cvv" required placeholder="CVV ( 3 characters )" minlength="3"
+                    maxlength="3" size="3">
+
+                <label for="person6" class="friend6">Friend 6</label>
+                <input onchange="output6(event)" type="text" name="person6" id="person6" required
+                    placeholder="Your name" minlength="6" maxlength="20" size="20">
+                <input type="text" id="person6-card" required placeholder="Card Number" minlength="10" maxlength="12"
+                    size="12">
+                <input type="password" id="person6-cvv" required placeholder="CVV ( 3 characters )" minlength="3"
+                    maxlength="3" size="3">
+                <button onclick="apply()" id="btn-apply">Apply</button>
+            </fieldset>
+            <!--             </form>
+ -->
+        </section>
+    </main>
+
+    <script src="/assets/JS/spin.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+</html>

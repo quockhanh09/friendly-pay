@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon-f-rosa-png-720912.png">
+    <link rel="stylesheet" href="./assets/fontawesome-free-6.2.0-web/css/all.css">
+    <link rel="stylesheet" href="./assets/CSS/index.css">
+    <title>Friendly Pay</title>
+</head>
+<body>
+    <header>
+        <div class="header__navBar">
+            <a class="header__logoBrand" href="./index.html">Friendly Pay</a>
+            <div class="header__itemsRight">
+                <div class="header__itemsNavbar">
+                    <a class="header--items header--itemConsumer" href="#">Consumer</a>
+                    <a class="header--items header--itemAboutus" href="/assets/HTML/about-us.html">About Us</a>
+                    <div class="header--items header--itemLanguage">
+                        <i class="fa-solid fa-globe"></i>
+                    </div>
+                    <a href="/assets/HTML/help.html" class="header--items header--itemHelp">
+                        <div class="itemHelp--icon"></div>
+                        <div class="itemHelp--help">Help</div>
+                    </a>
+                    <a href="/assets/HTML/login.html" class="header--items header--itemLogin">
+                        <div class="itemLogin--icon"></div>
+                        <div class="itemLogin--login">Login</div>
+                    </a>
+                    <a href="/assets/HTML/register.html" class="header--items header--itemRegister">Register</a>
+                </div>
+                <div class="header__itemMenu">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="section1">
+            <div class="mainBox__container">
+                <div class="mainbox" id="mainbox">
+                    <div class="box" id="box">
+                        <div class="box1">
+                            <span class="font span1"><h5>John Cena</h5></span>
+                            <span class="font span2"><h5>Amadin Sef</h5></span>
+                            <span class="font span3"><h5>Holy Winner</h5></span>
+                            <span class="font span4"><h5>Cristina Robetor</h5></span>
+                            <span class="font span5"><h5>Khoa Nguyen Van</h5></span>
+                            <span class="font span6"><h5>Elon Musk</h5></span>
+                        </div>
+                        <!-- <div class="box2"> -->
+                        </div>
+                        <button class="spin" onclick="spin()">SPIN</button>
+                    </div>
+                </div>
+                <audio controls="controls"
+                id="applause"
+                type="audio/mp3"
+                src="./assets/audio/cheer-and-applause.wav"
+                ></audio>
+                <audio controls="controls"
+                id="wheel"
+                type="audio/mp3"
+                src="./assets/audio/bike-wheel-spinning.wav"
+                ></audio>
+            </div>
+        </section>
+
+        <section class="section2">
+            <div class="guide">
+                <div class="guide--name">FRIENDLY PAY APP USER GUIDE</div>
+                <div class="guide--box">
+                    <div class="guide--card">
+                        <div class="guide--card--center">
+                            <h3>STEP 01</h3>
+                            <a href="/assets/HTML/register.html" class="guide--main--content">REGISTER</a>
+                            <p class="guide--content">You need to create your own account.</p>
+                        </div>
+                    </div>
+                    <div class="guide--card">
+                        <div class="guide--card--center">
+                            <h3>STEP 02</h3>
+                            <a href="/assets/HTML/login.html" class="guide--main--content">LOGIN</a>
+                            <p class="guide--content">Log in to the account you have already registered.</p>
+                        </div>
+                    </div>
+                    <div class="guide--card">
+                        <div class="guide--card--center">
+                            <h3>STEP 03</h3>
+                            <a href="#" class="guide--main--content">ENTER INFORMATION</a>
+                            <p class="guide--content">Fill in the required information.</p>
+                        </div>
+                    </div>
+                    <div class="guide--card">
+                        <div class="guide--card--center">
+                            <h3>STEP 04</h3>
+                            <a href="./index.html" class="guide--main--content">SPIN</a>
+                            <p class="guide--content">Click the "Apply" button to complete the information entry and click "Spin" button.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+            
+        <section class="section3">
+            <div class="section3-container">
+
+                <!-- <img class="section3-img" src="https://images01.nicepage.com/c461c07a441a5d220e8feb1a/21757c6b6c5e51d4b69aab64/fgfg7-min.png" alt="Hình Ảnh Minh Họa "> -->
+                <img class="section3-img" src="https://skytechvn.vn/wp-content/uploads/2021/06/payment.png" alt="Hình Ảnh Minh Họa ">
+                <div class="section3-content">
+                    <div class="event-c1">
+                        <h3 id="output"></h3>
+                        <p class="p-event-c1">số lượng người dùng</p>
+                    </div>
+                    <div class="event-c2">
+                        <h3 id="output-1"></h3>
+                        <p class="p-event-c1"> số lượt đã thanh toán</p>
+                    </div>
+                    <div class="event-c3">
+                        <h3 id="output-2"></h3>
+                        <p class="p-event-c1">có mặt tại bao nhiêu quốc gia</p>
+                    </div>
+                    <div class="event-c4">
+                        <h3>2</h3>
+                        <p class="p-event-c1">số lượng ngôn ngữ </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+     </main>
+
+        <footer>
+            <div class="section-contact">
+                <div class="noi-dung-contact">
+        
+                </div>
+                <img class="img-contact" src="https://images01.nicepage.com/c461c07a441a5d220e8feb1a/728b5323b5a95c75b52f3489/c26c025a-04ff-878a-e5bf-079beb720c94.jpg"
+                    alt="">
+                <div class="contact0">
+                    <div class="contact0-s1">
+        
+                    </div>
+                    <h3 class="contact0-s2">Contact Us</h3>
+                </div>
+                <div class="contact00">
+                    <h3 class="contact00-s1">CALL US</h3>
+                    <p class="contact00-s2">1 (234) 567-891
+                        <br> 1 (234) 987-654
+                    </p>
+                    <h3 class="contact00-s1">LOCATION</h3>
+        
+                    <p class="contact00-s2">22C P. Thành Công, Thành Công, Ba Đình, Hà Nội</p>
+        
+                    <ul class="icon-dang-nhap">
+                        <li><i class="fa-brands fa-facebook"></i></li>
+                        <li><i class="fa-brands fa-google"></i></li>
+                        <li><i class="fa-brands fa-twitter"></i></li>
+                        <li><i class="fa-brands fa-youtube"></i></li>
+                        <li><i class="fa-brands fa-instagram"></i></li>        
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        
+        
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="./assets/JS/main.js"></script>
+        <script src="./assets/JS/roll.js"></script>
+        <script src="./assets/JS/cout-down.js"></script>
+    </body>
+    </html>

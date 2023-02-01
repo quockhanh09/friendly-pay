@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Login</title>
+    <link rel="icon" type="image/x-icon" href="/assets/images/favicon-f-rosa-png-720912.png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/assets/fontawesome-free-6.2.0-web/css/all.css">
+    <link rel="stylesheet" href="/assets/CSS/login.css">
+    <link rel="stylesheet" href="/assets/CSS/root--color.css">
+    
+</head>
+
+<body>
+    <header>
+        <div class="header__navBar">
+            <a class="header__logoBrand" href="/index.html">Friendly Pay</a>
+            <div class="header__itemsRight">
+                <div class="header__itemsNavbar">
+                    <a class="header--items header--itemConsumer" href="#">Consumer</a>
+                    <a class="header--items header--itemAboutus" href="./about-us.html">About Us</a>
+                    <div class="header--items header--itemLanguage">
+                        <i class="fa-solid fa-globe"></i>
+                    </div>
+                    <a href="./help.html" class="header--items header--itemHelp">
+                        <div class="itemHelp--icon"></div>
+                        <div class="itemHelp--help">Help</div>
+                    </a>
+                    <a href="./login.html" class="header--items header--itemLogin">
+                        <div class="itemLogin--icon"></div>
+                        <div class="itemLogin--login">Login</div>
+                    </a>
+                    <a href="./register.html" class="header--items header--itemRegister">Register</a>
+                </div>
+                <div class="header__itemMenu">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="section">
+        <div class="noi-dung">
+            <div class="form">
+                <h2>sign-using</h2>
+                <!-- <form action=""> -->
+                    <div class="input-form">
+                        <span>Email or Usename</span>
+                        <input type="text" name="username" id="username" placeholder="Username" autofocus>
+                    </div>
+                    <div class="input-form">
+                        <span>password</span>
+                        <input type="password" name="password" id="password" placeholder="Password">
+                    </div>
+                    <div class="nho-dang-nhap">
+                        <label><input type="checkbox" name=""> Remember to sign in</label>
+                        <div id="notification"></div>
+                    </div>
+                    <div class="input-form">
+                        <button id="login">Đăng Nhập</button>
+                    </div>
+                    <div class="input-form">
+                        <p>Do you have an account <a href="./register.html">Register</a></p>
+                    </div>
+                <!-- </form> -->
+                <h3>log in with social media</h3>
+                <div class="icon-dang-nhap">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-google"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="/assets/JS/login.js"></script>
+</body>
+
+</html>
